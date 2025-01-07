@@ -12,8 +12,8 @@ enum HttpMethod {
 class ApiService {
 // api endpoint
   // make a variable to store the api endpoint
-  // final String apiEndpoint = 'https://pss.leolitgames.com/api';
-  final String apiEndpoint = 'http://127.0.0.1:8000/api';
+  final String apiEndpoint = 'https://pss.leolitgames.com/api';
+  // final String apiEndpoint = 'http://127.0.0.1:8000/api';
 
   // make a function to call api, add parameter if include with token
   Future<Map<String, dynamic>> post(String path, Map<String, dynamic> body,
